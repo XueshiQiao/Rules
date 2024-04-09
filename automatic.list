@@ -1,0 +1,75 @@
+# cloudflare workers
+DOMAIN-SUFFIX,workers.dev
+
+DOMAIN-SUFFIX,huggingface.co
+
+DOMAIN-SUFFIX,setapp.com
+
+DOMAIN-SUFFIX,epicgames.com
+DOMAIN-SUFFIX,getepic.com
+# zlib
+DOMAIN-SUFFIX,singlelogin.re
+
+
+# ai applications
+DOMAIN-SUFFIX,monica.im
+DOMAIN-SUFFIX,openai.azure.com
+DOMAIN-SUFFIX,setapp.com
+DOMAIN,openai-sweden-central-for-dalle-3.openai.azure.com
+
+# apps
+DOMAIN-SUFFIX,conyss.com
+DOMAIN-SUFFIX,singlelogin.re
+DOMAIN-SUFFIX,nssurge.com
+DOMAIN-SUFFIX,monica.im
+DOMAIN-SUFFIX,brew.sh
+
+# common
+DOMAIN-SUFFIX,cdn.jsdelivr.net
+DOMAIN-SUFFIX,debian.org
+DOMAIN-SUFFIX,docker.com
+DOMAIN-SUFFIX,v0.dev
+DOMAIN-SUFFIX,dribbble.com
+DOMAIN-SUFFIX,epicgames.com
+DOMAIN-SUFFIX,getepic.com
+
+
+DOMAIN-SUFFIX,nineai.xyz
+DOMAIN-SUFFIX,pipedream.net
+DOMAIN-SUFFIX,pipedream.com
+DOMAIN-SUFFIX,bootstrapcdn.com
+DOMAIN-SUFFIX,blend2d.com
+DOMAIN-SUFFIX,blog.google
+DOMAIN-SUFFIX,.google
+DOMAIN-SUFFIX,ycombinator.com
+DOMAIN-SUFFIX,ffmpeg.org
+DOMAIN-SUFFIX,ubuntu.com
+DOMAIN-SUFFIX,mathworks.com
+DOMAIN-SUFFIX,deb.debian.org
+DOMAIN-SUFFIX,pythonhosted.org
+DOMAIN-SUFFIX,pypi.org
+DOMAIN-SUFFIX,amazon.com
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,appspot.com
+DOMAIN-SUFFIX,woolyss.com
+
+DOMAIN-SUFFIX,ubuntu.com
+DOMAIN-SUFFIX,docker.com
+DOMAIN-KEYWORD,vvshop
+DOMAIN-SUFFIX,cchostvps.xyz
+DOMAIN-SUFFIX,awwwards.com
+DOMAIN-SUFFIX,serpapi.com
+
+
+# custom
+DOMAIN,re.isfor.fun
+DOMAIN-SUFFIX,nginx.isfor.fun
+
+# mac apps
+PROCESS-NAME,/Applications/Setapp.app/Contents/MacOS/Setapp
+PROCESS-NAME,/Applications/Microsoft Outlook.app/Contents/MacOS/Microsoft Outlook,DIRECT
+PROCESS-NAME,/Applications/DingTalk.app/Contents/MacOS/DingTalk,DIRECT
+PROCESS-NAME,/Applications/Setapp/Spark Mail.app/Contents/Frameworks/Spark Mail Helper.app/Contents/MacOS/Spark Mail Helper
+PROCESS-NAME,/Applications/Setapp.app/Contents/MacOS/Setapp
+PROCESS-NAME,/Applications/Setapp/Dash.app/Contents/MacOS/Dash
+PROCESS-NAME,/Applications/Craft.app/Contents/MacOS/Craft

@@ -1,0 +1,27 @@
+# google
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-KEYWORD,labs.google
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,notebooklm.google
+
+# adobe podcast api
+DOMAIN-SUFFIX,podcast.adobe.com
+
+# bing
+DOMAIN-SUFFIX,bingapis.com
+DOMAIN-SUFFIX,bing.net
+DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,microsoft.com
+DOMAIN-SUFFIX,microsoftapp.net
+
+# perplexity
+DOMAIN-SUFFIX,perplexity.ai
+
+#
+DOMAIN-SUFFIX,scamalytics.com
+DOMAIN-SUFFIX,whatismyipaddress.com
+DOMAIN-SUFFIX,gptgod.site
+DOMAIN-SUFFIX,capcut.com
+DOMAIN-SUFFIX,coze.com
+DOMAIN-SUFFIX,reddit.com

@@ -69,6 +69,27 @@ rule-providers:
     interval: 86400
     format: yaml
     type: http
+  OneDrive:  
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/OneDrive.list
+    path: ./ruleset/OneDrive.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Microsoft:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Microsoft.list
+    path: ./ruleset/Microsoft.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Apple:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Apple.list
+    path: ./ruleset/Apple.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
   claude:
     url: https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Claude/Claude.yaml
     path: ./ruleset/claude.yaml
@@ -196,6 +217,9 @@ rules:
   - "RULE-SET,google_domain,Google"
   - "RULE-SET,google_ip,Google"
   - "RULE-SET,geolocation-!cn,PROXY"
-  - "RULE-SET,cn_domain,DIRECT"
-  - "RULE-SET,cn_ip,DIRECT"
+  - "RULE-SET,cn_domain,DIRECT"                           
+  - "RULE-SET,cn_ip,DIRECT"           
+  - "RULE-SET,OneDrive,DIRECT"             
+  - "RULE-SET,Microsoft,DIRECT"           
+  - "RULE-SET,Apple,DIRECT"  
   - "MATCH,PROXY"
